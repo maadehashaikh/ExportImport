@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Export Import JS project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <!-- <h1>DATA EXPORT AND IMPORT </h1>
+        <input type="file" id="fileInput" accept=".csv">
+        <button class="export">Export</button> 
+        <input type="file" id="fileImport" accept=".csv">
+        <div id="tableContainer"></div> -->
+ <h2>Import CSV File</h2>
+  <input type="file" id="sourceFileInput" accept=".csv">
+  <button onclick="importData()">Import CSV</button>
+  <div id="tableContainer"></div>
+  <h2>Transfer Data to New CSV File</h2>
+  <input type="file" id="destinationFileInput" accept=".csv">
+  <button onclick="transferData()">Transfer Data</button>
+    </section>
+    <script src="script.js"> </script>
+</body>
+</html>
